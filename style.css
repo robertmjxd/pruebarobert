@@ -1,0 +1,39 @@
+:root{
+	--color-1-tipo: green;
+	--color-2-tipo: gray;
+	--color-3-tipo: yellow;
+}
+.container{
+	background-color: var(--color-3-tipo);
+	width:100%;
+	height: 98vh;
+	overflow: hidden;
+	vertical-align: center;
+	text-align: center;
+}
+.cardInfo{
+	background-color: var(--color-2-tipo);
+	width: 90%;
+	margin: auto;
+	font-size: 1em;
+}
+.cardPersonal{
+	margin: auto;
+	background-color: var(--color-1-tipo);
+	margin-top: 15%;
+	width: 20%;
+	height: 12vh;
+	overflow: hidden;
+	border-radius: 25px 25px;
+	transition: width 2s,height 2s;
+}
+.cardPersonal: hover{
+	color:  blue;
+	width: 60%;
+	height: 50vh;
+}
+.cardImagen img{
+	width: 20%;
+	height: 20%;
+	border-radius: 25px 25px;
+}
